@@ -8,31 +8,49 @@
 <body>
     <h1>Lenny</h1>
     <p>My Name is Lenny Methu Njengere a Kenyan citizen by birth and an adult of 18 years i reside at Ruiru, kimbo in specific and i'm also a student at Moringa School persuing Software Engineering. For more inforamtion about me feel free to contact me thankyou.</p>
-<div class="nav">
- <nav>
-    <a href="#about.html">About</a>
-    <a href="#contact.html">Contacts</a>
- </nav>
-</div>
-<ul>
-    <li>Swimming</li>
-    <li>Playing Chess</li>
-    <li>Gaming a lot</li>
-</ul>
+<header>
+  <nav>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contacts</a>
+  </nav>
+</header>
+ 
+<main>
+    <section id="About">
+      <h2>About me</h2>
+    <p> My name is Lenny Methu Njengere, a Kenyan citizen born and raised in 
+        Ruiru, Kimbo. I am 18 years old and currently a student at Moringa School 
+        pursuing Software Engineering. Feel free to contact me for more information.</p>
+</section>
 
+    <section id="Skills">
+      <h2>My Interests</h2>
+      <ul>
+        <li>Swimming</li>
+          <li>Playing chess</li>
+            <li>Gaming</li>
+       </ul> 
+</section>
+   
+<section id="Contacts">
+ <h2>Contact me</h2>
 <form action="/submit" method="post">
     <label for="Name">Full Name</label>
-<input type="text" id="Name" name="Name" placeholder="Type full names" required/>
+      <input type="text" id="Name" name="Name" placeholder="Type full names" required/>
    
-     <label for="Email">Email</label>
-<input type="email" id="Email" name="Email" required/>
+    <label for="Email">Email</label>
+      <input type="email" id="Email" name="Email" required/>
    
     <textarea name="Message" rows="4" placeholder="Enter message..."></textarea>
        
     <button type="submit">Send</button>
 </form>
+</section>
+</main>
 
-<footer>Lenny</footer>
+<footer>
+    <p>&copy;2026 Lenny Methu. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
